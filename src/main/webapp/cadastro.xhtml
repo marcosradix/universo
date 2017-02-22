@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/template/Template.xhtml">
+
+	<ui:define name="corpo">
+		<div>
+			<p:outputLabel value="Cadastro  "
+				style="color:green; margin-left:40%; font-size:20px" />
+
+			<h:commandButton value="Gravar" class="btn btn-success bn-sm"
+				style="margin-left:1%" />
+
+
+		</div>
+
+		<div class="organizar">
+
+			<p:outputLabel value="Nome : " />
+			<div>
+				<p:inputText size="80" />
+			</div>
+
+		</div>
+
+
+
+	</ui:define>
+
+
+
+</ui:composition>
+
+</html>

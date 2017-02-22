@@ -1,0 +1,143 @@
+alter table Aluno drop foreign key FK40jkyynec26v6dwclb0p2xp8n
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+alter table Aluno add constraint FK40jkyynec26v6dwclb0p2xp8n foreign key (sala_id) references Aluno (id)
+alter table Aluno drop foreign key FK40jkyynec26v6dwclb0p2xp8n
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+alter table Aluno add constraint FK40jkyynec26v6dwclb0p2xp8n foreign key (sala_id) references Aluno (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+alter table sala_Aluno drop foreign key FK4c43kly5nh4xl2y21wmurnccx
+alter table sala_Aluno drop foreign key FK4rueeyixwpy8rl79n08ah240d
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+drop table if exists sala_Aluno
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+create table sala_Aluno (Sala_id bigint not null, alunos_id bigint not null) ENGINE=InnoDB
+alter table sala_Aluno add constraint UK_k2xgfcpu1f1ndmy6sf80ne76a unique (alunos_id)
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table sala_Aluno add constraint FK4c43kly5nh4xl2y21wmurnccx foreign key (alunos_id) references Aluno (id)
+alter table sala_Aluno add constraint FK4rueeyixwpy8rl79n08ah240d foreign key (Sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
+alter table Aluno drop foreign key FKe13xa2txl0ikadj6j7s1f50wg
+drop table if exists Aluno
+drop table if exists hibernate_sequence
+drop table if exists sala
+create table Aluno (id bigint not null, descricao varchar(255), sala_id bigint, primary key (id)) ENGINE=InnoDB
+create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+insert into hibernate_sequence values ( 1 )
+insert into hibernate_sequence values ( 1 )
+create table sala (id bigint not null, descricao varchar(255), primary key (id)) ENGINE=InnoDB
+alter table Aluno add constraint FKe13xa2txl0ikadj6j7s1f50wg foreign key (sala_id) references sala (id)
